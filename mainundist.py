@@ -12,8 +12,8 @@ import sys
 from pathlib import Path
 import os
 
-os.chdir('//personal.mh.se/Data/konton/svl/h/hibalq/Dokument/Tracking/igor/OneDrive/Undistortion')
-path = '//personal.mh.se/Data/konton/svl/h/hibalq/Dokument/Tracking/igor/OneDrive/Undistortion'
+#os.chdir('//personal.mh.se/Data/konton/svl/h/hibalq/Dokument/Tracking/igor/OneDrive/Undistortion')
+#path = '//personal.mh.se/Data/konton/svl/h/hibalq/Dokument/Tracking/igor/OneDrive/Undistortion'
 
 
 import argparse
@@ -174,7 +174,7 @@ def argParse():
 
 
 
-    video = functInFiles.ifFileExist("cam2_20180623_144506crop1.mp4")
+    video = functInFiles.ifFileExist("vidigor.mp4")
 
     #video = functInFiles.ifFileExist("video_name.mp4")
 
